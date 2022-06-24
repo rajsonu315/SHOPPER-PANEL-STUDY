@@ -1,0 +1,57 @@
+body {
+	background: #fff;
+	padding: 0px;
+	margin: 0px;
+	color: #333;
+
+}
+
+.section-authentication-signin {
+  background: url('https://img.freepik.com/free-vector/blue-curve-background_53876-113112.jpg?t=st=1655341071~exp=1655341671~hmac=1b88a30e4df3e7cf19affc29da228e2314de57c027fb35b3136b95a7d9fefcb4&w=740');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.login {
+	border: 4px double rgba(80, 177, 227, 0.32) !important;
+	box-shadow: 2px 2px 30px #e6e4e4;
+}
+
+.login img {
+	width: 100px;
+}
+
+.participate {
+background: radial-gradient(circle, rgb(141, 211, 228) 6%, rgb(141, 211, 228) 14%, rgb(188, 217, 178) 30%, rgba(198, 225, 189, 0.67) 43%, rgb(163, 228, 141) 49%, rgba(99, 138, 180, 0.43) 71%, rgb(27, 159, 172) 95%);
+height: 100vh;
+}
+
+.top-title {
+  background: #03aacc;
+  padding: 5px 16px;
+}
+.top-title h5 {
+  color: #fff !important;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.top-title img {
+	width: 30px;
+}
+
+.participate .card-body {
+	box-shadow: 2px 2px 30px #e6e4e4;
+}
+.form-group {
+margin-bottom: 12px;
+margin-top: 0 !important;
+}
+@media (max-width: 767px) {
+	.section-authentication-signin {
+		margin: 0 !important;
+	}
+	.participate {
+		margin: 0 !important;
+	}
+}
